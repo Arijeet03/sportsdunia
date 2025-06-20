@@ -1,0 +1,42 @@
+{
+  "name": "sportsdunia-referral-system",
+  "version": "1.0.0",
+  "description": "A comprehensive multi-level referral and earning system with real-time updates",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "migrate": "cd backend && node scripts/migrateReferrals.js",
+    "inactivate": "cd backend && node scripts/markInactiveByReferralActivity.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "referral",
+    "earning",
+    "multi-level",
+    "real-time",
+    "react",
+    "nodejs",
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/sportsdunia-referral-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sportsdunia-referral-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/sportsdunia-referral-system#readme"
+} 
