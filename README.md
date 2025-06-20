@@ -140,28 +140,4 @@ npm start
 
 ---
 
-## Extending & Customizing
-
-- **Change commission rates** in `.env`
-- **Change inactivity period** in the inactivation script
-- **Add more analytics or admin features** as needed
-
----
-
-## Contributing
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request
-
----
-
-## License
-
-MIT (or your preferred license)
-
----
-
-## Questions?
-
-Open an issue or contact the maintainer. 
+ 
